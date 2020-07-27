@@ -177,7 +177,7 @@ a{
   justify-content:space-around;
 }
 .money-text{
-  width:400px;
+  width:100%;
   line-height:1.5;
 }
 .money-text p{
