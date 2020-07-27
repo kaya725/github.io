@@ -87,7 +87,7 @@
   <!-- money -->
       <section class="money">
         <h2 class="section-title"><i class="fas fa-coins"></i>ご利用料金</h2>
-        <div class="money-contents">
+        <div class="money-contents clearfix">
           <table>
             <tr class="blue-font">
               <th>種別</th>
@@ -146,8 +146,20 @@
       </section>
   <!-- question -->
       <section class="question">
-        <a class="btn" href="#"><p>よくある質問</p></a>
-        <a class="btn btn2" href="#"><p>お問い合わせ</p></a>      
+        <button class="btn" onclick="clickBtn1()">よくあるご質問</button>
+        <dl id="questionMenu">
+          <dt class="fold" onclick="clickBtn2()">事前にチケットの購入はできますか？</dt>
+            <dd class="anser">入館日の1ヶ月前からネットにて購入できます。チケットのネット購入は<span><a href="#">こちらから。</a></span></dd>
+          <dt class="fold" onclick="clickBtn2()">クレジットカードは使えますか？</dt>
+            <dd class="anser">各種クレジットカード、電子マネーがご利用いただけます。なお、一部店舗では利用できませんのでご了承ください。</dd>
+          <dt class="fold" onclick="clickBtn2()">再入館はできますか？</dt>
+            <dd class="anser">当日に限り再入館が可能です。出口にて透明のスタンプを押させていただきます。</dd>
+          <dt class="fold" onclick="clickBtn2()">駐車料金はいくらですか？</dt>
+            <dd class="anser">詳しくは<span><a href="#">こちらをご覧ください。</a></span></dd>
+          <dt class="fold" onclick="clickBtn2()">ショーの時間を教えてください。</dt>
+            <dd class="anser">イルカショー、アシカショーがございます。詳しくは<span><a href="#">こちらをご覧ください。</a></span></dd>
+        </dl>
+        <button class="btn btn2"><a href="#"><p>お問い合わせ</p></a></button>      
       </section>
     </main>
   <!-- main end -->
@@ -167,7 +179,7 @@
     </footer>
   <!-- footer end -->
   </div>
-<script src="js/main.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
