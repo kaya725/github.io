@@ -7,7 +7,6 @@
     width:100%;
   }
   .nav-item a{
-    width:100%;
     padding:0;
   }
   .nav-item{
@@ -21,11 +20,27 @@
   }
   /* news */
   .news{
-    padding: 0 10px 30px;
+    padding: 0;
   }
   .news-boxs{
     flex-wrap:wrap;
   }
+  .news-box{
+    height:200px;
+    width:22%;
+  }
+  .news-box h3{
+    padding:10px 5px;
+    font-size:12px;
+  }
+  .news-box p{
+    padding:0 5px;
+    font-size:10px;
+  }
+  .date{
+    right:0;
+    font-size:8px;
+  }  
   /* times */
   .times-contents{
     padding: 30px 30px;
@@ -69,7 +84,7 @@
     display: inline-block;
     font-size:15px;
     padding:8px 12px;
-    margin:5px;
+    margin:5px 5px;
   }
   #questionMenu{
     font-size:15px;
