@@ -98,8 +98,8 @@ a{
 .news-box{
   position: relative;
   vertical-align:top;
-  width:210px;
-  height:300px;
+  width:20%;
+  padding-bottom:60px;
   box-shadow:6px 6px 8px -4px rgba(0,0,0,0.15);
   margin:10px 0;
 }
@@ -119,6 +119,7 @@ a{
   padding:10px 5px;
   font-size:18px;
   text-align: center;
+  height:50px;
 }
 .news-box p{
   padding:0 5px;
