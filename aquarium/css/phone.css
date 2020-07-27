@@ -15,79 +15,9 @@
     line-height:40px;
     font-size:10px;
   }
-
-  /* .hamberger {
-    cursor: pointer;
-    left: 0px;
-    width: 30px;
-    height: 30px;
-    margin: 1px 5px 3px;
-  }
-  .hamberger span {
-    left: 0px;
-    width: 100%;
-    height: 3px;
-    position: relative;
-    display: block;
-    background-color:white;
-    border-radius: 2px;
-    transform: rotate(0deg);
-    transition: .4s ease-in-out;
-  }
-  .hamberger span:nth-child(1) {
-    top: -2px;
-  }
-  .hamberger span:nth-child(2) {
-    top: 6px;
-  }
-  .hamberger span:nth-child(3) {
-    top: 14px;
-  }
-  .hamberger.open span:nth-child(1) {
-    transform: translateY(12px) rotate(135deg);
-  }
-  .hamberger.open span:nth-child(2) {
-      transform: translateX(-150%);
-  }
-  .hamberger.open span:nth-child(3) {
-      transform: translateY(-12px) rotate(-135deg);
-  }
-
-}
-.menu-list {
-    cursor: pointer;
-    position: absolute;
-    left: -100%;
-    width: 300px;
-    height: auto;
-    padding: 0%;
-  }
-  .menu-contents, .nav-item {
-    position: relative;
-    width: 100%;
-    height: 40px;
-    left: 10px;
-    padding: 10px;
-  }
-  .menu-contents {
-    border-top: 2px solid coral;
-    background-color: rgb(255, 105, 19);
-    color: white;
-  }
-  .nav-item {
-    display: none;
-    background-color:white);
-  }
-  .nav-item a {
-    color: white;
-    text-decoration: none;
-  }
- */
-
   .top-title{
     line-height:35px;
     font-size:25px;
-    
   }
   /* news */
   .news{
@@ -112,6 +42,9 @@
   .money-contents{
     display: block;
   }
+  .money-text{
+    width:90%;
+  }  
   table,
   .money-text{
     margin:0 auto;
